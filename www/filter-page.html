@@ -1,0 +1,63 @@
+<div data-role="page" class="filter-page" id="filter-page" data-analytics-pagename="Search">
+
+
+    <div data-role="header">
+        <a href="#"></a>
+        <h1>SEARCH</h1>
+    </div>
+    <div data-role="content" class="filter-content form-container overthrow">
+        <div class="form-group-title">Location</div>
+
+        <div class="form-group">
+            <div class="form-item">
+                <div class="item-name">Search address</div>
+                <div class="item-control">
+                    <form>
+                        <div style="position: relative;">
+                            <input type="text" name="location" id="location" value="" /><span class="search-del"></span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div id="current-loc" class="sbtn">
+            <button data-theme="a">USE CURRENT LOCATION</button>
+        </div>
+
+        <div style="text-align: right; clear: both;">
+            <a href="#" data-href="settings-page.html" rel="external">Location settings</a><br />
+            <a href="#" data-href="privacy-page.html" rel="external">Privacy policy</a>
+        </div>
+
+        <div class="form-group-title">Distance</div>
+        <div class="form-group">
+            <div class="form-item">
+                <fieldset data-role="controlgroup" data-type="horizontal">
+                    <input type="radio" name="radio-view" id="radio-view-a" value="1" />
+                    <label for="radio-view-a">1mi</label>
+                    <input type="radio" name="radio-view" id="radio-view-b" value="5" />
+                    <label for="radio-view-b">5mi</label>
+                    <input type="radio" name="radio-view" id="radio-view-c" value="10" />
+                    <label for="radio-view-c">10mi</label>
+                    <input type="radio" name="radio-view" id="radio-view-d" value="20" />
+                    <label for="radio-view-d">20mi</label>
+                </fieldset>
+            </div>
+            <div class="form-item">
+                <div class="item-name">Show locations</div>
+                <div class="item-control containing-element">
+                    <select name="flip-min" id="flip-min" data-role="slider">
+                        <option value="all">All</option>
+                        <option value="open">Open Now</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div id="search-btn" class="sbtn">
+            <button data-theme="a">SEARCH</button>
+        </div>
+    </div>
+
+</div>

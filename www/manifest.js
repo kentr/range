@@ -1,0 +1,1 @@
+(function(){ navigator.manifest = { "id": "com.caravan.range", "name": "Range", "version": "1.2.5", "buildDate": "2016-05-06T14:24:01.607Z" }; })();

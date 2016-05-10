@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="com.caravan.terminate"
+    version="0.1.0">
+
+  <name>Terminate</name>
+	<author>JayStack</author>
+
+	<description>
+		WP8 terminate app
+	</description>
+
+	<license>MIT</license>
+
+	<engines>
+		<engine name="cordova" version=">=3.0.0" />
+	</engines>
+
+  <js-module name="Terminate" src="terminate.js">
+  </js-module>
+
+  <!-- wp8 -->
+  <platform name="wp8">
+
+    <config-file target="config.xml" parent="/*">
+      <feature name="Terminate">
+        <param name="wp-package" value="Terminate"/>
+      </feature>
+    </config-file>
+
+    <source-file src="Terminate.cs" />
+
+  </platform>
+
+</plugin>

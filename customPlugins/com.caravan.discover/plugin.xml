@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="com.caravan.discover"
+    version="0.1.0">
+
+  <name>DiscoVer</name>
+	<author>JayStack</author>
+
+	<description>
+		
+	</description>
+
+	<license>MIT</license>
+
+	<js-module src="www/discover.js" name="discover">
+   	<clobbers target="discover" />
+	</js-module>
+
+</plugin>

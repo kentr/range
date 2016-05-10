@@ -1,0 +1,32 @@
+<div data-role="page" class="share-page" id="share-page" data-analytics-pagename="Share">
+    <div data-role="header">
+        <a href="#"></a>
+        <h1>SHARE</h1>
+    </div>
+    <div data-role="content" class="share-content overthrow">
+        <div class="sms-text" style="display: none;">
+            <h3>Phone number</h3>
+            <form id="phone-form">
+                <input type="tel" name="phone" id="phone" value="" />
+            </form>
+            <p class="sm">Please include 1 and area code (e.g., 1-415-555-1234)</p>
+        </div>
+        <div class="email-text" style="display: none;">
+            <h3>Send to: email address</h3>
+            <form id="email-form">
+                <input type="email" name="email" id="email" value="" />
+            </form>
+        </div>
+        <h3 class="sms-text" style="display: none;">Text</h3>
+        <div class="email-text" style="display: none;">
+            <h3 style="margin-bottom: 0;">Email message</h3>
+            <p class="sm" style="margin-top: 0;">(Not editable to comply with acceptable use policies.)</p>
+        </div>
+        <div id="share-body"></div>
+        <div class="sbtn">
+            <button data-theme="a">SEND</button>
+        </div>
+        <p class="sm sms-text" style="display: none;">Messages sent via Twilio. Your phone number will not be used. You will not be charged for sending the text. Standard fees apply to recipients of the text. Please ensure you have permission from the recipient to send them text messages. You will not receive confirmation that the message was received, nor will you be able to receive text messages via Range.</p>
+        <p class="sm email-text" style="display: none;">Email Messages sent from FromRange via SendGrid (<a href="mailto:fromrange@caravanstudios.org" target="_blank">fromrange@caravanstudios.org</a>). Your email address will not be used and you will not be able to see sent messages. Please ensure you have permission from the recipient to send them email messages.</p>
+    </div>
+</div>

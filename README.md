@@ -9,23 +9,8 @@ This repository holds the code for the Range mobile app developed in HTML5 and r
 
 ## How to setup
 
-Edit config.js file and include your credentials and access tokens
+Create a config.js file in the root directory, copy the contents of config.template.js and include your credentials and access tokens
 
-```javascript
-{
-	allowDiscover: false,
-	allowAnalytics: true,
-	analyticsUrl: 'http://www.google-analytics.com/collect',
-	analyticsId: 'GOOGLE_ANALYTICS_ID',
-	mapkey: "BING_MAPKEY",
-	serverUrl: 'SERVER_URL',
-	xAppToken: 'XAP_TOKEN',
-	socrataUrl: 'SOCRATA_URL',
-	libraryUrl: 'LIBRARY_URL',
-	bingScriptSrc: 'http://ecn.dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=7.0',
-	mapUrl: 'http://dev.virtualearth.net/REST/v1/Locations/'
-}
-```
 
 You should set these configuration properties:
 * GOOGLE_ANALYTICS_ID - your Analytics access token, like UA-xxxxxxxx-x

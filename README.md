@@ -25,7 +25,7 @@ Developed as an HTML5/Cordova hybid app and released on Windows, Android, and iO
 	###Discovery Service (optional)
 		* Configuration information can optionally be accessed via a Discovery Service (contact Caravan for more details)
 
-### To set up:
+##To set up:
 
 Create a config.js file in the root directory, copy the contents of config.template.js and include your credentials and access tokens in config.js
 
@@ -37,13 +37,13 @@ You should set these configuration properties:
 * SOCRATA_URL - Socrata URL for Food
 * LIBRARY_URL - Socrata URL for Safe Places
 
-##To Configure environment for building:
+###To Configure environment for building:
 	1. npm install -g cordova
 	2. cordova platform add <platform name>
 	(platform names: browser, android, ios, windows)
 	
-##To build:
+###To build:
 	cordova build
 	
-##To run:
+###To run:
 	cordova run

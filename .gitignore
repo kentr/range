@@ -4,5 +4,8 @@
 [Pp]lugins/wp8.json
 [Pp]lugins/remote_ios.json
 [Pp]latforms/
+[Pp]lugins/
 
 build.json
+www/config.js
+npm-debug.log

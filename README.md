@@ -20,7 +20,7 @@ Developed as an HTML5/Cordova hybid app and released on Windows, Android, and iO
 
 ###Range Data:
 
-* All Range data is stored in Socrata	and accessed through the [Socrata APIs](www.socrata.com)
+* All Range data is stored in Socrata	and accessed through the [Socrata APIs](http://www.socrata.com)
 
 ###Range Server:
 
@@ -44,14 +44,16 @@ You should set these configuration properties:
 
 ###To Configure environment for building:
 
-	1. npm install -g cordova
-	2. cordova platform add <platform name>
-	(platform names: browser, android, ios, windows)
+$ npm install -g cordova
+
+$ cordova platform add PLATFORM_NAME
+
+(platform name options: browser, android, ios, windows)
 	
 ###To build:
 
-cordova build
+$ cordova build
 	
 ###To run:
 
-cordova run
+$ cordova run

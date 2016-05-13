@@ -7,6 +7,7 @@ Range provides time and location-specific information about free basic human ser
 Developed as an HTML5/Cordova hybid app and released on Windows, Android, and iOS
 
 ##Dependencies:
+	
 	###Client Libraries:
 	* Cordova 5.0.0
 	* jQuery JavaScript Library v1.9.1

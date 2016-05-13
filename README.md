@@ -8,23 +8,27 @@ Developed as an HTML5/Cordova hybid app and released on Windows, Android, and iO
 
 ##Dependencies:
 	
-	###Client Libraries:
-	* Cordova 5.0.0
-	* jQuery JavaScript Library v1.9.1
-	* jQuery UI - v1.10.4
-	* jQuery Mobile 1.3.2
-	* pako v0.2.0 (zlib port to javascript)
-	* Overflow v0.7.0 (An overflow:auto polyfill for responsive design)
-	* moment.js v2.7.0 (used to parse, validate, manipulate and display dates)
-	* Bing Maps API (Microsoft)
+###Client Libraries:
+* Cordova 5.0.0
+* jQuery JavaScript Library v1.9.1
+* jQuery UI - v1.10.4
+* jQuery Mobile 1.3.2
+* pako v0.2.0 (zlib port to javascript)
+* Overflow v0.7.0 (An overflow:auto polyfill for responsive design)
+* moment.js v2.7.0 (used to parse, validate, manipulate and display dates)
+* Bing Maps API (Microsoft)
 
-	###Range Data:
-		* All Range data is stored in Socrata	and accessed through the [Socrata APIs](www.socrata.com)
+###Range Data:
 
-	###Range Server:
-		* SMS and email messaging is handled through the [range-server service](https://github.com/CaravanStudios/range-server) 
-	###Discovery Service (optional)
-		* Configuration information can optionally be accessed via a Discovery Service (contact Caravan for more details)
+* All Range data is stored in Socrata	and accessed through the [Socrata APIs](www.socrata.com)
+
+###Range Server:
+
+* SMS and email messaging is handled through the [range-server service](https://github.com/CaravanStudios/range-server)
+
+###Discovery Service (optional)
+
+* Configuration information can optionally be accessed via a Discovery Service (contact Caravan for more details)
 
 ##To set up:
 
@@ -39,12 +43,15 @@ You should set these configuration properties:
 * LIBRARY_URL - Socrata URL for Safe Places
 
 ###To Configure environment for building:
+
 	1. npm install -g cordova
 	2. cordova platform add <platform name>
 	(platform names: browser, android, ios, windows)
 	
 ###To build:
-	cordova build
+
+cordova build
 	
 ###To run:
-	cordova run
+
+cordova run

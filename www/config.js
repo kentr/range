@@ -2,7 +2,7 @@
     window.conf = function () {
         return {
             allowDiscover: false,
-            allowAnalytics: true,
+            allowAnalytics: false,
             analyticsUrl: 'http://www.google-analytics.com/collect',
             analyticsId: 'GOOGLE_ANALYTICS_ID',
             mapkey: "BING_MAPKEY",

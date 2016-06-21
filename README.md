@@ -34,3 +34,27 @@ You should set these configuration properties:
 * XAP_TOKEN - your Socrata access token
 * SOCRATA_URL - Socrata URL for Food
 * LIBRARY_URL - Socrata URL for Safe Places
+
+## Installing on Unix-based systems
+
+You may get errors such as these when adding a platform to your project via command line:
+
+```bash
+Discovered plugin "cordova-plugin-splashscreen" in config.xml. Adding it to the project
+Failed to restore plugin "cordova-plugin-splashscreen" from config.xml. You might need to try adding it again. Error: Error: Registry returned 404 for GET on https://registry.npmjs.org/RangeAppV3
+Discovered plugin "com.caravan.discover" in config.xml. Adding it to the project
+Failed to restore plugin "com.caravan.discover" from config.xml. You might need to try adding it again. Error: Error: Registry returned 404 for GET on https://registry.npmjs.org/RangeAppV3
+Discovered plugin "com.caravan.openweb" in config.xml. Adding it to the project
+Failed to restore plugin "com.caravan.openweb" from config.xml. You might need to try adding it again. Error: Error: Registry returned 404 for GET on https://registry.npmjs.org/RangeAppV3
+Discovered plugin "com.caravan.terminate" in config.xml. Adding it to the project
+Failed to restore plugin "com.caravan.terminate" from config.xml. You might need to try adding it again. Error: Error: Registry returned 404 for GET on https://registry.npmjs.org/RangeAppV3
+```
+
+The solution is to add the plugins manually: 
+
+```bash
+cordova plugin add customPlugins/com.caravan.discover && \
+cordova plugin add customPlugins/com.caravan.openweb && \
+cordova plugin add customPlugins/com.caravan.terminate && \
+cordova plugin add customPlugins/cordova-plugin-splashscreen
+```
